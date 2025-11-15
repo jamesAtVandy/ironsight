@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: YOUR_SCRIPT_GUID_HERE, type: 3}
+  m_Name: UITheme
+  primaryBlue: {r: 0, g: 0.6, b: 1, a: 1}
+  accentBlue: {r: 0, g: 0.8, b: 1, a: 1}
+  darkBackground: {r: 0.1, g: 0.1, b: 0.15, a: 0.9}
+  panelBackground: {r: 0.05, g: 0.05, b: 0.1, a: 0.85}
+  textPrimary: {r: 1, g: 1, b: 1, a: 1}
+  textSecondary: {r: 0.8, g: 0.8, b: 0.9, a: 1}
+  highlightGreen: {r: 0, g: 1, b: 0.5, a: 1}
+  outlineColor: {r: 0, g: 0.6, b: 1, a: 0.8}
+  gridColor: {r: 0, g: 0.6, b: 1, a: 0.3}
+  panelWidth: 400
+  panelHeight: 600
+  panelPadding: 20
+  buttonHeight: 50
+  listItemHeight: 40
+  titleFontSize: 32
+  bodyFontSize: 18
+  smallFontSize: 14
+  fadeDuration: 0.3
+  pulseSpeed: 2
+  glowIntensity: 1.5
+  gridLineWidth: 0.02
+  gridSpacing: 0.5
+  blueprintPulseSpeed: 1
+

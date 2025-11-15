@@ -1,0 +1,36 @@
+# Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+*.unitypackage
+*.meta
+UserSettings/
+
+# Visual Studio
+.vs/
+*.sln
+*.csproj
+
+# IDEs
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation (excluding the files we want)
+!README.md
+!INTEGRATION_INSTRUCTIONS.md
+
+# Other project files
+PROJECT_SUMMARY.md
+QUICK_START.md
+SCENE_SETUP.md
+UI_ONLY_MODE.md
+PREFAB_DEFINITIONS.md
+PROJECTED_OBJECTS_GUIDE.md
