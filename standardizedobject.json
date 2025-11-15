@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "room": {
+    "id": "room_101_services_only",
+    "dimensions": {
+      "length_m": 5.0,
+      "width_m": 4.0,
+      "height_m": 2.7
+    }
+  },
+  "objects": [
+    {
+      "id": "window_south_1",
+      "displayName": "SOUTH MAIN WINDOW",
+      "category": "window",
+      "subtype": "casement",
+      "side": "south",
+      "shape": "rectangle",
+
+      "dimensions": {
+        "width_m": 1.5,
+        "height_m": 1.2,
+        "depth_m": 0.18
+      },
+      "position": {
+        "x_m": 1.7,
+        "y_m": 4.0,
+        "z_m": 1.0
+      },
+
+      "outline": {
+        "color": "#0000FF",
+        "enabled": true
+      },
+      "markers": []
+    },
+
+    {
+      "id": "door_entry",
+      "displayName": "SOUTH ENTRY DOOR",
+      "category": "door",
+      "subtype": "hinged",
+      "side": "south",
+      "shape": "rectangle",
+
+      "dimensions": {
+        "width_m": 0.9,
+        "height_m": 2.03,
+        "depth_m": 0.04
+      },
+      "position": {
+        "x_m": 0.2,
+        "y_m": 0.0,
+        "z_m": 0.0
+      },
+
+      "swing": {
+        "direction": "into_room",
+        "hingeSide": "left_from_inside",
+        "arc_degrees": 90
+      },
+
+      "outline": {
+        "color": "#00FF00",
+        "enabled": true
+      },
+      "markers": []
+    },
+
+    {
+      "id": "outlet_1",
+      "displayName": "WEST OUTLET ONE",
+      "category": "electrical_outlet",
+      "subtype": "duplex",
+      "side": "west",
+      "shape": "rectangle",
+
+      "dimensions": {
+        "width_m": 0.15,
+        "height_m": 0.1,
+        "depth_m": 0.02
+      },
+      "position": {
+        "x_m": 0.0,
+        "y_m": 1.0,
+        "z_m": 0.3
+      },
+
+      "outline": {
+        "color": "#FFAA00",
+        "enabled": true
+      },
+      "markers": [
+        {
+          "type": "screw_hole",
+          "shape": "circle",
+          "offset_x_m": -0.06,
+          "offset_y_m": 0.04,
+          "size_m": 0.01
+        }
+      ]
+    }
+    // add objects 
+  ]
+}
