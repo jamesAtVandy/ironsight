@@ -1,0 +1,25 @@
+{
+  "stepId": "door_outline_step",
+  "label": "Highlight Entry Door",
+  "markdown": "# Entry Door\n\nConfirm you are working on the **south entry door**.",
+
+  "overlays": [
+    {
+      "id": "ov_door_outline_green",
+      "objectId": "door_entry",
+      "kind": "outline",
+      "space": "localUV",
+      "style": {
+        "color": "#00FF00",
+        "thickness": 0.02
+      },
+      "shape": "rect",
+      "points": [
+        { "u": 0.0, "v": 0.0 },
+        { "u": 1.0, "v": 0.0 },
+        { "u": 1.0, "v": 1.0 },
+        { "u": 0.0, "v": 1.0 }
+      ]
+    }
+  ]
+}
