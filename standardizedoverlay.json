@@ -1,0 +1,83 @@
+{
+  "timestamp": "2024-01-15T10:30:00Z",
+  "focusObjectId": "window_south_1",
+
+  "steps": [
+    {
+      "stepId": "step_1_outline",
+      "label": "Locate Window Frame",
+      "markdown": "# Locate Window Frame\n\nIdentify the window opening on the **south wall**. The window frame should be visible and properly aligned.\n\n**Window dimensions:** 1.5m × 1.2m\n**Sill height:** 1.0m from floor",
+
+      "overlays": [
+        {
+          "id": "ov_window_outline",
+          "objectId": "window_south_1",
+          "kind": "outline",
+          "space": "localUV",
+          "style": {
+            "color": "#00FF00",
+            "thickness": 0.01
+          },
+          "shape": "rect",
+          "points": [
+            { "u": 0.0, "v": 0.0 },
+            { "u": 1.0, "v": 0.0 },
+            { "u": 1.0, "v": 1.0 },
+            { "u": 0.0, "v": 1.0 }
+          ]
+        }
+      ]
+    },
+
+    {
+      "stepId": "step_2_screws",
+      "label": "Window Screw Positions",
+      "markdown": "# Window Frame Screw Holes\n\nMark screw positions along the frame and pre-drill with a 3mm bit. Ensure screws are flush with the frame.",
+
+      "overlays": [
+        {
+          "id": "ov_window_outline_secondary",
+          "objectId": "window_south_1",
+          "kind": "outline",
+          "space": "localUV",
+          "style": {
+            "color": "#0000FF",
+            "thickness": 0.01
+          },
+          "shape": "rect",
+          "points": [
+            { "u": 0.0, "v": 0.0 },
+            { "u": 1.0, "v": 0.0 },
+            { "u": 1.0, "v": 1.0 },
+            { "u": 0.0, "v": 1.0 }
+          ]
+        },
+        {
+          "id": "ov_window_screw_markers",
+          "objectId": "window_south_1",
+          "kind": "marker_group",
+          "space": "localUV",
+          "style": {
+            "markerShape": "circle",
+            "markerColor": "#FF0000",
+            "markerSize": 0.02
+          },
+          "points": [
+            { "u": 0.083, "v": 0.0 },
+            { "u": 0.250, "v": 0.0 },
+            { "u": 0.417, "v": 0.0 },
+            { "u": 0.583, "v": 0.0 },
+            { "u": 0.750, "v": 0.0 },
+            { "u": 0.917, "v": 0.0 },
+            { "u": 0.083, "v": 1.0 },
+            { "u": 0.250, "v": 1.0 },
+            { "u": 0.417, "v": 1.0 },
+            { "u": 0.583, "v": 1.0 },
+            { "u": 0.750, "v": 1.0 },
+            { "u": 0.917, "v": 1.0 }
+          ]
+        }
+      ]
+    }
+  ]
+}
